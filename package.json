@@ -1,0 +1,19 @@
+{
+  "name": "sajid-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "bundle": "esbuild src/scene.js --bundle --minify --format=iife --loader:.png=dataurl --outfile=assets/js/scene.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@phosphor-icons/web": "^2.1.2",
+    "esbuild": "^0.28.2",
+    "three": "^0.186.1"
+  }
+}
